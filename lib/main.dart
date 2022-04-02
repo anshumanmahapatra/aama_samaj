@@ -1,8 +1,14 @@
-import './views/home.dart';
+import 'package:get_storage/get_storage.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:firebase_core/firebase_core.dart';
 
-void main() {
+import '../views/pseudo_home.dart';
+
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
+  await GetStorage.init();
   runApp(const MyApp());
 }
 
@@ -11,9 +17,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    Home home = Get.put(const Home());
-    return GetMaterialApp(
-      home: home,
+    return const GetMaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: PseudoHome(),
     );
   }
 }
