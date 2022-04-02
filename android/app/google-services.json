@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "209748144904",
+    "project_id": "aama-samaj-temp",
+    "storage_bucket": "aama-samaj-temp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:209748144904:android:a069f582b7618e40d272bd",
+        "android_client_info": {
+          "package_name": "com.example.aama_samaj_temp_frontend"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "209748144904-afgrs8o2ok7a9jk1jvfqlolh89ad1jb8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_QqCmniICdXjJfFWfJhsVAZYKo-4d5pY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "209748144904-afgrs8o2ok7a9jk1jvfqlolh89ad1jb8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
